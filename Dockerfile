@@ -10,4 +10,4 @@ RUN pip3 install django gunicorn
 
 #Adding libraries for saving keras model architecture to images
 RUN pip3 install pydot pydotplus graphviz
-RUN apt-get install graphviz
+RUN apt-get install graphviz -y
